@@ -34,7 +34,7 @@ ul {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  }
+}
 
 /*-------------HEADER---------- */
 .header {
@@ -752,102 +752,21 @@ ul {
     margin-right: auto;
     padding-left: 16px;
     padding-right: 16px;
-  }
-  @media screen and (min-width: 768px) {
-    .container {
-      width: 768px;
-    }
-  }
-  @media screen and (min-width: 1158px) {
-    .container {
-      width: 1158px;
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-  }
-
-.section {
-  padding: 120px 0;
-}
-@media screen screen and (max-width: 1157px) {
-  .section {
-    padding: 96px 0;
-  }
-}
 
 /* =============== MOBILE 👇 ========================================= */
 @media screen and (max-width: 767px) {
-/* --------Секція номер №2------------*/
-.sec-two {
-  padding: 120px 0;
+мої стилі сюди !!!
 }
-
-.container {
-  width: 288px;
-  height: 696px;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.sec-two-list {
-  gap: 24px;
-  display: flex;
-}
-.sec-two-list-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-}
-.sec-two-list-p {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.sec-two-list-header-three {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  margin-bottom: 8px;
-}
-/* .icon-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px;
-  border: 1px solid #8e8f99;
-  margin-bottom: 8px;
-} */
-}
-
 /* ====================== TABLET 👇 ========================================= */
 @media screen and (min-width: 768px) {
     .container {
         width: 768px;
-        padding-left: 32px;
-        padding-right: 32px;
       }
-
-    .features {
-      padding-top: 50px;
-      padding-bottom: 50px;
-    }
 }
 
 /* ============== NOT DESKTOP 👇 ========================================= */
 @media screen and (max-width: 1157px) {
-  .icon-container {
+  .icon-features {
     display: none;
   }
 }
@@ -858,71 +777,4 @@ ul {
         padding-left: 15px;
         padding-right: 15px;
       }
-
-/* ==================== section-one ============== */
-.section-one {
-  padding: 188px 0;
-  max-width: 1440px;
-  margin: 0 auto;
-  background-image: linear-gradient(
-    rgba(46, 47,	66, 0.7),
-    rgba(46, 47,	66, 0.7)
-  )
-  url(../images/hero-bg/Dark-bg@1x-desktop-min.jpg);
-  }
-  @media screen and (min device pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
-  .hero {
-   backgrmd-image: linea--gradient(
-    rgba(46 , 47 , 66 , 0.7),
-    rgba(46, 47, 66, 0.7)
-  url(../images/hero-bg/Dark-bg@2x-desktop-min.jpg);
-    }
-  }
-  
-  .section-one-h-one {
-   margin-bottom: 48px;
-  }
-  /* ==================== section-two Features ============== */
-  .sec-two-list {
-  width: 264px;
-  }
-  
-  .sec-two-list-header-three {
-  font weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  }
-  
-  .sec-two-list-p {
-  font weight: 400;
-  }
-  
-  /* ==================== section-three Our Team ============== */
-  .sec-three-list {
-  gap: 48px 24px;
-  }
-  
-  .sec-three-list-item {
-   width: 360px;
-  }
-
-   /* ==================== section-four Our Portfolio  ============== */
-   .sec-four-list {
-    gap: 48px 24px;
-    }
-    
-    .sec-four-list-item {
-     width: 360px;
-    }
-
-  /* ==================== footer ============== */
-  .footer-container-logo {
-   margin right: 120px;
-  }
-  
-  .sm-container {
-   margin-right: auto;
-}
 }
