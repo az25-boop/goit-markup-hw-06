@@ -819,7 +819,8 @@ ul {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-/* .icon-container {
+
+.icon-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -828,12 +829,12 @@ ul {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
-} */
+}
 }
 
 /* ====================== TABLET 👇 ========================================= */
 @media screen and (min-width: 768px) {
-    .container {
+    .icon-container {
         width: 768px;
         padding-left: 32px;
         padding-right: 32px;
