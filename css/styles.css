@@ -205,7 +205,7 @@ ul {
 }
 .sec-two-list {
   gap: 24px;
-  /* display: flex; */
+  display: flex;
 }
 .sec-two-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
@@ -224,6 +224,15 @@ ul {
   margin-bottom: 8px;
 }
 
+.icon-container {
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
 
 /*------------Секція номер №3------------------------ */
 .sec-three {
@@ -792,8 +801,7 @@ ul {
 }
 .sec-two-list {
   gap: 24px;
-  width: 100%;
-  /* display: flex; */
+  display: flex;
 }
 .sec-two-list-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
@@ -811,13 +819,22 @@ ul {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+
+.icon-container {
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+}
 }
 
 /* ====================== TABLET 👇 ========================================= */
 @media screen and (min-width: 768px) {
     .icon-container {
-        display: flex;    
-        width: 768px;
+        width: 768px;
         padding-left: 32px;
         padding-right: 32px;
       }
