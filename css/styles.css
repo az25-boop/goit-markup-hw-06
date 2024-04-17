@@ -847,17 +847,17 @@ ul {
 
 /* ============== NOT DESKTOP ========================================= */
 @media screen and (max-width: 1157px) {
-  .icon-container {
-    display: none;
-  }
+.icon-container {
+display: none;
+}
 }
 /* ================== DESKTOP ========================================= */
 @media screen and (min-width: 1158px) {
-    .container {
-        width: 1158px;
-        padding-left: 15px;
-        padding-right: 15px;
-      }
+  .container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
 /* ==================== section-one ============== */
 .section-one {
