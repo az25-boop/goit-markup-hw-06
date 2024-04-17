@@ -847,9 +847,9 @@ ul {
 
 /* ============== NOT DESKTOP ========================================= */
 @media screen and (max-width: 1157px) {
-.icon-container {
-display: none;
-}
+  .icon-container {
+    display: none;
+  }
 }
 /* ================== DESKTOP ========================================= */
 @media screen and (min-width: 1158px) {
