@@ -120,7 +120,7 @@ input {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg/Dark-bgDark-bg-tablet@1x.jpg);
+    url(../images/hero-bg/Dark-bgDark-bg@1xmobile.jpg);
   background-size: cover;
   padding-top: 72px;
   padding-bottom: 72px;
@@ -138,7 +138,7 @@ input {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/mob-Dark-bg@2x-min.jpg);
+      url(../images/hero-bg/Dark-bgDark-bg@2xmobile.jpg);
   }
 }
 .title {
@@ -1145,7 +1145,7 @@ input {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office1.jpg);
+      url(../images/hero-bg/Dark-bg@1x-desktop.jpg);
     padding-top: 188px;
     padding-bottom: 188px;
     max-width: 1440px;
@@ -1158,7 +1158,7 @@ input {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/people-office1@2x-min.jpg);
+        url(../images/hero-bg/Dark-bg@2x-desktop.jpg);
     }
   }
   .title {
