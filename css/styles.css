@@ -120,7 +120,7 @@ input {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg/Dark-bgDark-bg@1xmobile.jpg);
+    url(../images/hero-bg/Dark-bgDark-bg-tablet@1x.jpg);
   background-size: cover;
   padding-top: 72px;
   padding-bottom: 72px;
@@ -391,7 +391,7 @@ input {
 .footer-logo-text {
   color: #f4f4fd;
 }
-.footer-text {
+.footer-logo-p {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -928,7 +928,7 @@ input {
     width: calc((100% - 24px) / 2);
   }
 
-  .soc-net-icon-bg {
+  .sm-ref {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .sec-four-list {
@@ -973,14 +973,15 @@ input {
   .footer-text {
     width: 264px;
   }
-  .footer-soc-med {
+  .sm-container {
     margin-right: 80px;
   }
-  .soc-med-title {
+  .sm-container-paragraph {
     text-align: left;
   }
-  .soc-med {
+  .sm-list {
     margin-left: 0;
+    
   }
 
   .subscribe-container {
