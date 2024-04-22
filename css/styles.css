@@ -939,11 +939,13 @@ input {
     column-gap: 24px;
     row-gap: 72px;
   }
-  .sec-four-card {
+  
+  .sec-four-list-item {
     width: calc((100% - 24px) / 2);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .sec-four-card-card {
+
+  .products {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
@@ -1181,7 +1183,7 @@ input {
     justify-content: flex-start;
     gap: 24px;
   }
-  .sec-two-card {
+  .sec-two-list-item {
     width: calc((100% - 72px) / 4);
   }
   .sec-two-card-icon {
@@ -1223,15 +1225,15 @@ input {
     column-gap: 24px;
     row-gap: 48px;
   }
-  .sec-four-card {
+  .sec-four-list-item {
     width: calc((100% - 48px) / 3);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .sec-four-card:hover {
+  .sec-four-list:hover {
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
       0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   }
-  .sec-four-card:hover .overlay-text {
+  .sec-four-list:hover .overlay-text {
     transform: translateY(0);
   }
   .footer {
