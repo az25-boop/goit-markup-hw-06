@@ -291,7 +291,13 @@ input {
   justify-content: center;
   align-items: center;
   position: relative;
+  fill: #ffffff;
 }
+
+ .sm-ref {
+  fill: #ffffff;
+}
+
 .sm-icon {
   position: absolute;
   top: 50%;
@@ -396,6 +402,7 @@ input {
 }
 .footer-logo-container {
   display: flex;
+  /* text-align: center; */
   flex-direction: column;
 }
 .footer-logo {
@@ -407,7 +414,7 @@ input {
 }
 .footer-logo-text {
   color: #4d5ae5;
-  text-align: center;
+  text-align: ;
 }
 
 .footer-logo-span {
@@ -420,6 +427,17 @@ input {
   letter-spacing: 0.02em;
   width: 288px;
 }
+
+.sm-container-paragrap {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+  text-align: center; 
+  }
+
 .sm-list-title {
   font-weight: 500;
   font-size: 16px;
@@ -997,13 +1015,14 @@ input {
   }
   .footer-text {
     width: 264px;
+
   }
   .sm-container {
     margin-right: 80px;
   }
-  
+
   .sm-container-paragraph {
-    text-align: left;
+    text-align: center;
   }
   .sm-list {
     margin-left: 0;
@@ -1287,7 +1306,13 @@ input {
     margin-right: 80px;
   }
   .sm-container-paragrap {
-    text-align: left;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+  text-align: center; 
   }
   .sm-list {
     margin-left: 0;
