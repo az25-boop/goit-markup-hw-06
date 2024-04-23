@@ -1000,8 +1000,8 @@ input {
   }
   .sm-container {
     margin-right: 80px;
-    display: flex;
   }
+  
   .sm-container-paragraph {
     text-align: left;
   }
