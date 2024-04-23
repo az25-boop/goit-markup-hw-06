@@ -299,7 +299,21 @@ input {
   transform: translate(-50%, -50%);
 }
 
+.sm-list-item {
+  height: 40px;
+  width: 40px;
+}
 
+.sm-ref {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
 
 .sec-four-title {
   font-size: 36px;
@@ -406,7 +420,7 @@ input {
   letter-spacing: 0.02em;
   width: 288px;
 }
-.soc-med-title {
+.sm-list-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -415,7 +429,7 @@ input {
   margin-bottom: 16px;
   text-align: center;
 }
-.soc-med {
+.sm-list {
   width: 208px;
   height: 40px;
   display: flex;
@@ -993,7 +1007,7 @@ input {
   }
   .sm-list {
     margin-left: 0;
-    
+    display: flex;
   }
 
   .subscribe-container {
@@ -1269,17 +1283,17 @@ input {
   .footer-text {
     width: 264px;
   }
-  .footer-soc-med {
+  .sm-container {
     margin-right: 80px;
   }
-  .soc-med-title {
+  .sm-container-paragrap {
     text-align: left;
   }
-  .soc-med {
+  .sm-list {
     margin-left: 0;
   }
-  .soc-med .soc-net-icon-bg:hover,
-  .soc-med .soc-net-icon-bg:focus {
+  .sm-list .sm-ref:hover,
+  .sm-list .sm-ref:focus {
     background-color: #31d0aa;
   }
   .subscribe-container {
