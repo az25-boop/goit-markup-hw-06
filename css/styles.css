@@ -878,7 +878,7 @@ input {
   .mob-menu-btn {
     display: none;
   }
-  .nav {
+  .navigator {
     display: flex;
   }
   .address {
@@ -887,12 +887,13 @@ input {
   }
   .logo-list {
     display: flex;
+    gap: 40px;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    gap: 40px;
     margin-right: 121px;
   }
+
   .logo-list-item {
     font-weight: 500;
     line-height: 1.5;
