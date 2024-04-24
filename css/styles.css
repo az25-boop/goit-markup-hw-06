@@ -892,9 +892,8 @@ input {
   .navigator {
     display: flex;
     margin: auto;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
-
   }
+  
   .address {
     display: inline;
     font-style: normal;
@@ -908,7 +907,7 @@ input {
     /* margin-right: 121px; */
   }
 
-  .logo-list-item {
+  .header-list-ref {
     font-weight: 500;
     line-height: 1.5;
     color: #2e2f42;
@@ -917,11 +916,11 @@ input {
     display: block;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .nav-decor {
+  .current {
     position: relative;
     color: #404bbf;
   }
-  .nav-decor::after {
+  .current::after {
     display: block;
     content: '';
     position: absolute;
