@@ -891,6 +891,9 @@ input {
   }
   .navigator {
     display: flex;
+    margin: auto;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
   }
   .address {
     display: inline;
@@ -902,7 +905,7 @@ input {
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: row;
-    margin-right: 121px;
+    /* margin-right: 121px; */
   }
 
   .logo-list-item {
@@ -1169,6 +1172,8 @@ input {
   }
   .navigator {
     display: flex;
+    margin: auto;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
   }
 
   .address {
