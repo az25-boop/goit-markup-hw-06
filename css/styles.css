@@ -89,7 +89,7 @@ input {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-  /* margin-right: 149px; */
+  margin-bottom: 30px;
   text-align: center;
 }
 .logo-text {
@@ -114,9 +114,13 @@ input {
   fill: #2f2f37;
 }
 
-.soc-net-icon {
-;
+.sm-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
 
 .section {
   padding-top: 96px;
