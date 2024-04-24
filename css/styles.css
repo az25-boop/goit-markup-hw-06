@@ -418,12 +418,12 @@ input {
   margin-bottom: 17.5px;
   width: 116px;
   align-self: center;
-  margin-right: 0;
+  /* margin-right: 0; */
+  padding-bottom: 30px;
 }
 
-.footer-logo-text {
+.footer-logo-paragraph {
   color: #4d5ae5;
-  text-align: ;
 }
 
 .footer-logo-span {
