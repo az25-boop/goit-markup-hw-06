@@ -979,7 +979,7 @@ input {
   .sec-two-card {
     width: calc((100% - 24px) / 2);
   }
-  .sec-two-list-title {
+  .sec-two-list-header-three {
     text-align: left;
   }
   .sec-three-list {
@@ -1190,7 +1190,7 @@ input {
     position: relative;
     color: #404bbf;
   }
-  
+
   .current::after {
     display: block;
     content: '';
@@ -1271,14 +1271,14 @@ input {
   .sec-two-card-icon {
     display: flex;
   }
-  .sec-two-list-title {
+  .sec-two-list-header-three {
     font-weight: 400;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     text-align: left;
   }
-  .sec-two-list-text {
+  .sec-two-list-p {
     font-weight: 400;
   }
   .sec-three-list {
