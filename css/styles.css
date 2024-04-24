@@ -431,14 +431,14 @@ input {
   color: #f4f4fd;
 }
 
-.footer-logo-p {
+.footer-logo-paragraph {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
   width: 288px;
 }
 
-.sm-container-paragrap {
+.sm-container-paragraph {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -480,7 +480,7 @@ input {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   text-align: center; 
 }
 
