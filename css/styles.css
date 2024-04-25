@@ -1242,6 +1242,16 @@ input {
   .address-list-item:focus {
     color: #404bbf;
   }
+
+.header-address-ref {
+  color: #434455;
+}
+
+.header-address-ref:hover,
+.header-address-ref:focus {
+  color: #404bbf;
+}
+
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
