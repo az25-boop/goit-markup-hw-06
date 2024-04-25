@@ -53,7 +53,7 @@ input {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-direction: row;
 }
 .mobile-header {
@@ -89,6 +89,7 @@ input {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-align: center;
+  margin-right: 76px;
 }
 
 .logo-text {
@@ -1165,7 +1166,7 @@ input {
     padding: 0 15px 0;
   }
   .header-container {
-    justify-content: center;
+    /* justify-content: center; */
   }
 
   .logo {
@@ -1177,7 +1178,7 @@ input {
   }
   .navigator {
     display: flex;
-    margin: auto;
+    margin-right: auto;
   }
 
   .address {
