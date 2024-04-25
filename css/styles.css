@@ -202,7 +202,7 @@ input {
   gap: 72px;
 }
 .sec-two-list-item {
-  width: 356px;
+  /* width: 356px; */
 }
 .icon-container {
   padding: 24px 100px;
@@ -992,9 +992,15 @@ input {
   .sec-two-card {
     width: calc((100% - 24px) / 2);
   }
+  
   .sec-two-list-header-three {
     text-align: left;
   }
+
+  .sec-two-list-item {
+    width: 356px;
+  }
+
   .sec-three-list {
     justify-content: flex-start;
     flex-direction: row;
