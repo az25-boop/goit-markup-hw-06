@@ -1382,6 +1382,7 @@ input {
     flex-direction: column; 
     align-items: center;
     margin-right: 80px;
+    align-items: flex-start;
   }
   .sm-container-paragrap {
   font-weight: 500;
@@ -1392,6 +1393,17 @@ input {
   margin-bottom: 16px;
   text-align: center; 
   }
+
+  .sm-container-paragraph {
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-align: left;
+  }
+
   .sm-list {
     margin-left: 0;
   }
